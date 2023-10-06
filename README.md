@@ -10,8 +10,13 @@ In the mode 2, calibration is performed for the AIR series macbooks (A2681), if 
 In mode 3, the function of recognizing the current angle is activated (if the lid is open, the LED lights up, closed - goes out).
 
 Before recording in modes 1 and 2, the tool makes checks for the possibility of flashing, if the sensor is not connected, the LED will blink 3 times, if a sensor removed from another device (calibrated by Apple) is connected, it will blink 6 times.
+
+Demonstration of the device operation:
+https://www.youtube.com/watch?v=4y4Nq-6QuaA
 # Required for assembly
+
 I used a controller NodeMCU v3 (ESP8266) use any controller with an spi interface that you have. 
+
 
 Connectors:
 
@@ -21,10 +26,8 @@ BM28P0.6-10DS-0.35V Hirose - For air models, also installed on iphone 11 (J_SIM_
 
 As a connector board, I used a piece of the motherboard from the macbook A2141
 
-![NodeMCU pinout](https://github.com/Vladislav98759/Macbook-Lid-Angle-Sensor-Calibration-Tool/assets/33593193/aad3c643-451a-4acf-b52b-7746e9d624f3)
+![NodeMCU pinout](https://github.com/Vladislav98759/Macbook-Lid-Angle-Sensor-Calibration-Tool/assets/33593193/6550a118-871b-4d62-8de6-cfd9e4de9bab)
 
+![Connectors pinout](https://github.com/Vladislav98759/Macbook-Lid-Angle-Sensor-Calibration-Tool/assets/33593193/dc2e7380-8eec-4fec-9e8c-6d418c56af62)
 
-![Connectors pinout](https://github.com/Vladislav98759/Macbook-Lid-Angle-Sensor-Calibration-Tool/assets/33593193/eebf7016-ac5a-4d90-810e-f2ece404c59e)
-
-
-![IMG_0431](https://github.com/Vladislav98759/Macbook-Lid-Angle-Sensor-Calibration-Tool/assets/33593193/1b9fea8f-973a-4cdc-9753-717be077c590)
+![IMG_0431](https://github.com/Vladislav98759/Macbook-Lid-Angle-Sensor-Calibration-Tool/assets/33593193/05c358fa-7ced-46c6-9795-95fb02d9ed8f)
